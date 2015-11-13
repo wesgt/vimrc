@@ -13,6 +13,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+let $MYVIMRC=$HOME
+" let $MYVIMRC .= '/.vimrc'
+let $MYVIMRC .= '/.vim/plugin-list.vim'
 
 NeoBundle 'Shougo/vimproc', {
 	\ 'build' : {
