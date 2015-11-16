@@ -14,8 +14,14 @@ set shiftwidth=4
 set expandtab
 
 let $MYVIMRC=$HOME
-" let $MYVIMRC .= '/.vimrc'
-let $MYVIMRC .= '/.vim/plugin-list.vim'
+let $MYVIMRC .= '/.vimrc'
+" let $MYVIMRC .= '/.vim/plugin-list.vim'
+nnoremap <leader>rv :source $MYVIMRC<CR>
+" noremap <silent> <Left> :bp<CR>
+" noremap <silent> <Right> :bn<CR>
+noremap <S-Left> :bp<CR>
+noremap <S-Right> :bn<CR>
+
 
 NeoBundle 'Shougo/vimproc', {
 	\ 'build' : {
