@@ -1,8 +1,10 @@
 # vimrc
 
+For Golang
+
 ## 1. Introduction
 
-Use NeoBundle
+Base on NeoBundle
 
 ## 2. HowTO
 
