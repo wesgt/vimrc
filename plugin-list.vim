@@ -12,6 +12,8 @@ filetype plugin indent off
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set hlsearch                                                                                             |▸ go/
+nnoremap <CR> :nohlsearch<CR><CR>
 
 let $MYVIMRC=$HOME
 let $MYVIMRC .= '/.vimrc'
